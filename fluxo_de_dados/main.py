@@ -1,6 +1,9 @@
 import pandas as pd
 from sqlalchemy import create_engine
 
+# Nome: Rafael Luis da Silva Barros
+# RA: 28320078
+
 # EXTRACT
 url = "https://raw.githubusercontent.com/datasets/covid-19/main/data/countries-aggregated.csv"
 df = pd.read_csv(url)
